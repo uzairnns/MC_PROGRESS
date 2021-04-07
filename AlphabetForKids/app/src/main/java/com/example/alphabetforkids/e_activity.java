@@ -6,18 +6,16 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 
-public class d_activity extends AppCompatActivity {
-
+public class e_activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_d);
+        setContentView(R.layout.activity_e);
     }
-
-    public void Playd(View view) {
+    public void Playe(View view) {
         MediaPlayer ourSong;
-        ourSong= MediaPlayer.create(this,R.raw.d);
+        ourSong= MediaPlayer.create(this,R.raw.e);
         ourSong.start();
     }
 }
