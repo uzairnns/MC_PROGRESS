@@ -28,6 +28,7 @@
     <string name="y" />
     <string name="z" />
     <string name="u">U</string>
-   <!-- <string name="a">A</string>-->
+    <!-- <string name="a">A</string>-->
     <string name="todo">TODO</string>
+    <string name="play_sound">Play Sound</string>
 </resources>

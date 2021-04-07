@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AlphabetForKids">
+        <activity android:name=".d_activity"></activity>
+        <activity android:name=".c_activity" />
+        <activity android:name=".b_activity" />
+        <activity android:name=".b" />
+        <activity android:name=".ActivityA" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
