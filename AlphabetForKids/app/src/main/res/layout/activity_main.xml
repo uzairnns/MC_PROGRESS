@@ -14,6 +14,7 @@
         android:layout_marginRight="8dp"
         android:padding="16sp"
         android:scrollbarSize="25sp"
+        android:onClick="Moveo"
         app:layout_constraintEnd_toEndOf="parent"
         tools:context=".MainActivity"
         tools:layout_editor_absoluteY="16dp">
@@ -202,7 +203,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/n"
-                android:onClick="Moveo"
+                android:onClick="Moven"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btnm"
                 tools:layout_conversion_absoluteHeight="48dp"
@@ -215,6 +216,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/o"
+                android:onClick="Moveo"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
